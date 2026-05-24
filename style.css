@@ -1,0 +1,249 @@
+body{
+    margin:0;
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+}
+.Home{
+    background-image:url("img1.png");
+}
+.About{
+    background-image:url("img2.png");
+    padding-left: 50px;
+}
+.page{
+    background-image: url(img3.png);
+}
+.need{
+    background-image: url(img4.png);
+    padding-left: 10%;
+}
+nav{
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+   align-items: center;
+}
+nav a{
+   text-decoration: none;
+   color: gray;
+   font-size: 18px;
+}
+a:hover{
+    color: goldenrod;
+}
+.no{
+    display: inline;
+    font-size: 20px;
+    color: rgb(245, 190, 10);
+    padding-bottom: 0%;
+}
+.bo{
+    padding:0%;
+    padding-left: 1px;
+    padding-right: 25%;
+}
+h1{
+    padding: 25px;
+    font-size: 70px;
+    font-weight: bold;
+    width: 600px;
+}
+.search-box{
+   display: flex;
+   margin-top: 30px;
+   margin-left: 25px;
+   margin-right: 0%;
+}
+
+.search-box input{
+   width: 500px;
+   height: 45px;
+   font-size: 18px;
+}
+
+.search-box button{
+   width: 120px;
+   padding-right: 50px;
+   background: orange;
+   color: white;
+   border: none;
+   font-size: 16px;
+   margin-left: 0%;
+}
+p{
+    padding-top: 25px;
+    font-size: large;
+    padding-right: 60%;
+    color: brown;
+    padding-left: 30px;
+}
+.clo{
+    padding-left: 200px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+button{
+   padding: 10px 20px;
+   background: hotpink;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   font-size: 18px;
+   cursor: pointer;
+   margin-left: 100px;
+
+}
+.one{
+    padding: 10px 20px;
+   background: rgb(228, 9, 27);
+   color: white;
+   border: none;
+   border-radius: 5px;
+   font-size: 18px;
+   margin-left: 200px;
+   margin-top: 20px;
+}
+.left{
+    text-align: left;
+    padding-right: 300px;
+    padding-left: 35px;
+    padding-left: 50px;
+}
+#food{
+    color: goldenrod;
+    gap: 0px;
+    display: block;
+    font-size: 50px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    padding-top: 50px;
+    padding-left: 1px;
+    margin-top: 1px;
+}
+
+#do{
+    gap: 0px;
+    display: inline;
+    font-size: 50px;
+    padding-left: 1px;
+    margin-right: 70%;
+    padding-bottom:1px;
+    margin-bottom: 1px;
+    padding-top: 1px;
+    padding-left: 1px;
+}
+#na{
+    color: rgb(71, 69, 69);
+    text-align: left;
+    padding-right: 60%;
+    padding-left: 1px;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+.si{
+    padding-top: 35px;
+    padding-left: 50px;
+}
+.wh{
+    background-color: rgb(202, 53, 16);
+    color: rgb(252, 247, 247);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 200px;
+    cursor: pointer;
+    
+}
+.et{
+    background-color: rgb(250, 174, 10);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.cen{
+    display: inline;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 750px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    font-size: 50px;
+    font-style: oblique;
+    text-align: justify;
+}
+.dd{
+   margin: 1px;
+   padding: 1px;
+   padding-left: 15px; 
+   font-weight: lighter;
+   font-style: oblique;
+   font-size: 50px;
+}
+.pa{
+    margin-bottom: 1px;
+    margin-top: 10px;
+}
+.top{
+    padding-bottom: 20px;
+    padding-bottom: 1px;
+}
+.ri{
+    padding-right: 50%;
+    padding-top: 1px;
+}
+.pi{
+    color: white;
+    background-color: rgb(255, 93, 120);
+    border-radius: 15px;
+    cursor: pointer;
+    padding:10 20;
+}
+.red{
+    color: orangered;
+    padding-bottom: 1px;
+    margin-bottom: 0;
+    padding-top: 100px;
+}
+.ar{
+    color: rgba(114, 22, 22, 0.938);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-weight: normal;
+    font-style: italic;
+    display: inline;
+    font-size: 50px;
+    
+}
+.sa{
+    color: rgba(114, 22, 22, 0.938);
+    padding-top: 1px;
+    padding-bottom: 10px;
+    margin-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+}
+.or{
+    color: orangered;
+    padding-right: 53%;
+    margin-top: 1px;
+}
+.ll{
+    color: white;
+    background-color: rgb(170, 238, 10);
+    padding-left: 30px;
+}
+.go{
+    padding-left: 10%;
+}
+.re{
+    padding-left: 200px;
+}
